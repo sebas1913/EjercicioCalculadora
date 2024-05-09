@@ -3,7 +3,7 @@ function calculadora(num1, num2, op){
         case '+':
             return sumar(num1, num2);
         case '-':
-            return restar(num1, num2);
+            return restarr(num1, num2);
         case '*':
             return multiplicar(num1, num2);
         case '/':
@@ -17,6 +17,6 @@ function sumar(num1,num2){
     return num1 + num2
 }
 
-function restar(num1,num2){
+function restarr(num1,num2){
     return num1-num2
 }
