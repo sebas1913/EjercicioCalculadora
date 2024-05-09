@@ -25,3 +25,8 @@ function division(num1,num2){
         return "No se puede dividir entre cero";
     }
 }
+
+function multiplicar(num1,num2){
+    return num1 * num2;
+}
+
