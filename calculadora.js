@@ -26,7 +26,7 @@ function division(num1,num2){
         return num1 / num2;
     }
     else{
-        return "No se puede dividir entre cero";
+        return "No se puede dividir entre cero jijiji";
     }
 }
 
