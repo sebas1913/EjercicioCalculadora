@@ -7,7 +7,9 @@ function calculadora(num1, num2, op){
         case '*':
             return multiplicar(num1, num2);
         case '/':
-            return dividir(num1, num2)
+            return dividir(num1, num2);
+        case '**':
+            return potencia(num1, num2)
         default:
             return 'Opción inválida'
     }
@@ -32,5 +34,10 @@ function division(num1,num2){
 
 function multiplicar(num1,num2){
     return num1 * num2;
+}
+
+function potencia(num1,num2){
+    return Math.pow(num1, num2)
+
 }
 
