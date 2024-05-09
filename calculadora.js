@@ -3,7 +3,7 @@ function calculadora(num1, num2, op){
         case '+':
             return sumar(num1, num2);
         case '-':
-            return restarr(num1, num2);
+            return restar(num1, num2);
         case '*':
             return multiplicar(num1, num2);
         case '/':
@@ -17,6 +17,20 @@ function sumar(num1,num2){
     return num1 + num2
 }
 
-function restarr(num1,num2){
+function restar(num1,num2){
     return num1-num2
 }
+
+function division(num1,num2){
+    if (num2 !== 0){
+        return num1 / num2;
+    }
+    else{
+        return "No se puede dividir entre cero";
+    }
+}
+
+function multiplicar(num1,num2){
+    return num1 * num2;
+}
+
