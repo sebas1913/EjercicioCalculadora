@@ -12,3 +12,8 @@ function calculadora(num1, num2, op){
             return 'Opción inválida'
     }
 }
+
+function sumar(num1,num2){
+    return num1 + num2
+}
+
